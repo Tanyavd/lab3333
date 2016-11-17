@@ -37,6 +37,10 @@
             this.y = new System.Windows.Forms.Button();
             this.u = new System.Windows.Forms.Button();
             this.i = new System.Windows.Forms.Button();
+            this.r = new System.Windows.Forms.Button();
+            this.t = new System.Windows.Forms.Button();
+            this.f = new System.Windows.Forms.Button();
+            this.g = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // q
@@ -123,6 +127,42 @@
             this.i.Text = "i";
             this.i.UseVisualStyleBackColor = true;
             // 
+            // r
+            // 
+            this.r.Location = new System.Drawing.Point(13, 48);
+            this.r.Name = "r";
+            this.r.Size = new System.Drawing.Size(75, 23);
+            this.r.TabIndex = 0;
+            this.r.Text = "r";
+            this.r.UseVisualStyleBackColor = true;
+            // 
+            // t
+            // 
+            this.t.Location = new System.Drawing.Point(122, 47);
+            this.t.Name = "t";
+            this.t.Size = new System.Drawing.Size(75, 23);
+            this.t.TabIndex = 1;
+            this.t.Text = "t";
+            this.t.UseVisualStyleBackColor = true;
+            // 
+            // f
+            // 
+            this.f.Location = new System.Drawing.Point(230, 47);
+            this.f.Name = "f";
+            this.f.Size = new System.Drawing.Size(75, 23);
+            this.f.TabIndex = 2;
+            this.f.Text = "f";
+            this.f.UseVisualStyleBackColor = true;
+            // 
+            // g
+            // 
+            this.g.Location = new System.Drawing.Point(312, 47);
+            this.g.Name = "g";
+            this.g.Size = new System.Drawing.Size(75, 23);
+            this.g.TabIndex = 3;
+            this.g.Text = "g";
+            this.g.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,6 +177,10 @@
             this.Controls.Add(this.i);
             this.Controls.Add(this.u);
             this.Controls.Add(this.y);
+            this.Controls.Add(this.g);
+            this.Controls.Add(this.f);
+            this.Controls.Add(this.t);
+            this.Controls.Add(this.r);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -155,6 +199,11 @@
         private System.Windows.Forms.Button y;
         private System.Windows.Forms.Button u;
         private System.Windows.Forms.Button i;
+
+        private System.Windows.Forms.Button r;
+        private System.Windows.Forms.Button t;
+        private System.Windows.Forms.Button f;
+        private System.Windows.Forms.Button g;
     }
 }
 
