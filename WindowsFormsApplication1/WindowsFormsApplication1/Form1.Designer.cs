@@ -59,12 +59,13 @@
             // 
             // e
             // 
+            this.e.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.e.Location = new System.Drawing.Point(206, 12);
             this.e.Name = "e";
             this.e.Size = new System.Drawing.Size(75, 23);
             this.e.TabIndex = 2;
             this.e.Text = "e";
-            this.e.UseVisualStyleBackColor = true;
+            this.e.UseVisualStyleBackColor = false;
             // 
             // a
             // 
