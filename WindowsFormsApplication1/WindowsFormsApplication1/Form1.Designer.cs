@@ -79,12 +79,13 @@
             // 
             // s
             // 
+            this.s.BackColor = System.Drawing.SystemColors.HotTrack;
             this.s.Location = new System.Drawing.Point(408, 11);
             this.s.Name = "s";
             this.s.Size = new System.Drawing.Size(75, 23);
             this.s.TabIndex = 4;
             this.s.Text = "s";
-            this.s.UseVisualStyleBackColor = true;
+            this.s.UseVisualStyleBackColor = false;
             // 
             // d
             // 
