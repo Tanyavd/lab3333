@@ -34,6 +34,9 @@
             this.a = new System.Windows.Forms.Button();
             this.s = new System.Windows.Forms.Button();
             this.d = new System.Windows.Forms.Button();
+            this.y = new System.Windows.Forms.Button();
+            this.u = new System.Windows.Forms.Button();
+            this.i = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // q
@@ -90,6 +93,33 @@
             this.d.Text = "d";
             this.d.UseVisualStyleBackColor = true;
             // 
+            // y
+            // 
+            this.y.Location = new System.Drawing.Point(13, 89);
+            this.y.Name = "y";
+            this.y.Size = new System.Drawing.Size(75, 23);
+            this.y.TabIndex = 0;
+            this.y.Text = "y";
+            this.y.UseVisualStyleBackColor = true;
+            // 
+            // u
+            // 
+            this.u.Location = new System.Drawing.Point(128, 88);
+            this.u.Name = "u";
+            this.u.Size = new System.Drawing.Size(75, 23);
+            this.u.TabIndex = 1;
+            this.u.Text = "u";
+            this.u.UseVisualStyleBackColor = true;
+            // 
+            // i
+            // 
+            this.i.Location = new System.Drawing.Point(240, 87);
+            this.i.Name = "i";
+            this.i.Size = new System.Drawing.Size(75, 23);
+            this.i.TabIndex = 2;
+            this.i.Text = "i";
+            this.i.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -101,6 +131,9 @@
             this.Controls.Add(this.e);
             this.Controls.Add(this.w);
             this.Controls.Add(this.q);
+            this.Controls.Add(this.i);
+            this.Controls.Add(this.u);
+            this.Controls.Add(this.y);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -115,6 +148,10 @@
         private System.Windows.Forms.Button a;
         private System.Windows.Forms.Button s;
         private System.Windows.Forms.Button d;
+
+        private System.Windows.Forms.Button y;
+        private System.Windows.Forms.Button u;
+        private System.Windows.Forms.Button i;
     }
 }
 
