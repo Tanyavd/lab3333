@@ -16,5 +16,20 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void my_radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Red;
+        }
+
+        private void my_radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+        }
+
+        private void my_radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Blue;
+        }
     }
 }
