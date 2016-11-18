@@ -43,6 +43,9 @@
             this.g = new System.Windows.Forms.Button();
             this.h = new System.Windows.Forms.Button();
             this.j = new System.Windows.Forms.Button();
+            this.my_radioButton1 = new System.Windows.Forms.RadioButton();
+            this.my_radioButton2 = new System.Windows.Forms.RadioButton();
+            this.my_radioButton3 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // q
@@ -183,11 +186,47 @@
             this.j.Text = "j";
             this.j.UseVisualStyleBackColor = true;
             // 
+            // my_radioButton1
+            // 
+            this.my_radioButton1.AutoSize = true;
+            this.my_radioButton1.Location = new System.Drawing.Point(26, 198);
+            this.my_radioButton1.Name = "my_radioButton1";
+            this.my_radioButton1.Size = new System.Drawing.Size(48, 17);
+            this.my_radioButton1.TabIndex = 8;
+            this.my_radioButton1.TabStop = true;
+            this.my_radioButton1.Text = "RED";
+            this.my_radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // my_radioButton2
+            // 
+            this.my_radioButton2.AutoSize = true;
+            this.my_radioButton2.Location = new System.Drawing.Point(155, 198);
+            this.my_radioButton2.Name = "my_radioButton2";
+            this.my_radioButton2.Size = new System.Drawing.Size(63, 17);
+            this.my_radioButton2.TabIndex = 9;
+            this.my_radioButton2.TabStop = true;
+            this.my_radioButton2.Text = "GREEN";
+            this.my_radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // my_radioButton3
+            // 
+            this.my_radioButton3.AutoSize = true;
+            this.my_radioButton3.Location = new System.Drawing.Point(334, 198);
+            this.my_radioButton3.Name = "my_radioButton3";
+            this.my_radioButton3.Size = new System.Drawing.Size(53, 17);
+            this.my_radioButton3.TabIndex = 10;
+            this.my_radioButton3.TabStop = true;
+            this.my_radioButton3.Text = "BLUE";
+            this.my_radioButton3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(523, 262);
+            this.Controls.Add(this.my_radioButton3);
+            this.Controls.Add(this.my_radioButton2);
+            this.Controls.Add(this.my_radioButton1);
             this.Controls.Add(this.j);
             this.Controls.Add(this.h);
             this.Controls.Add(this.d);
@@ -206,6 +245,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -228,6 +268,9 @@
         private System.Windows.Forms.Button g;
         private System.Windows.Forms.Button h;
         private System.Windows.Forms.Button j;
+        private System.Windows.Forms.RadioButton my_radioButton1;
+        private System.Windows.Forms.RadioButton my_radioButton2;
+        private System.Windows.Forms.RadioButton my_radioButton3;
     }
 }
 
