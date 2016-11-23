@@ -144,12 +144,13 @@
             // 
             // t
             // 
+            this.t.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.t.Location = new System.Drawing.Point(122, 47);
             this.t.Name = "t";
             this.t.Size = new System.Drawing.Size(75, 23);
             this.t.TabIndex = 1;
             this.t.Text = "t";
-            this.t.UseVisualStyleBackColor = true;
+            this.t.UseVisualStyleBackColor = false;
             // 
             // f
             // 
