@@ -50,6 +50,7 @@
             // 
             // q
             // 
+            this.q.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.q.Location = new System.Drawing.Point(13, 13);
             this.q.Name = "q";
             this.q.Size = new System.Drawing.Size(75, 23);
