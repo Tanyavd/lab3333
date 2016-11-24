@@ -117,12 +117,13 @@
             // 
             // u
             // 
+            this.u.BackColor = System.Drawing.Color.Maroon;
             this.u.Location = new System.Drawing.Point(128, 88);
             this.u.Name = "u";
             this.u.Size = new System.Drawing.Size(75, 23);
             this.u.TabIndex = 1;
             this.u.Text = "u";
-            this.u.UseVisualStyleBackColor = true;
+            this.u.UseVisualStyleBackColor = false;
             // 
             // i
             // 
